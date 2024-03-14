@@ -1,9 +1,23 @@
 /* Add styling for your page here */
 
 .App {
-
+    display: flex;
+    flex-direction: row;
 }
 
 .BakeryItem {
   
+}
+
+.left-container {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
